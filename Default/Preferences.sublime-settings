@@ -4,7 +4,6 @@
 // Settings may also be placed in file type specific options files, for
 // example, in Packages/Python/Python.sublime-settings for python files.
 {
-    "theme": "Spacegray Eighties.sublime-theme",
     "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 
     "corona_sdk_use_daily_docs": true,
@@ -17,9 +16,6 @@
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
     "word_wrap": false,
-    "enable_tab_scrolling": false,
-    "show_encoding": true,
-    "show_line_endings": true,
 
 //  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
     "font_size": 10,
@@ -91,18 +87,23 @@
     "find_selected_text": true,
     "auto_find_in_selection": false,
     "drag_text": true,
+
+    /// User Interface
+    "theme": "Spacegray Eighties.sublime-theme",
     "scroll_speed": 1.0,
     "tree_animation_enabled": true,
     "animation_enabled": true,
-    "highlight_modified_tabs": false,
+    "highlight_modified_tabs": true,
     "show_tab_close_buttons": true,
-    "bold_folder_labels": false,
+    "bold_folder_labels": true,
     "use_simple_full_screen": false,
     "gpu_window_buffer": "auto",
     "overlay_scroll_bars": "system",
-//    "enable_tab_scrolling": true,
-//    "show_encoding": false,
-//    "show_line_endings": false,
+    "enable_tab_scrolling": true,
+    "show_encoding": true,
+    "show_line_endings": true,
+
+    /// Application Preferences
     "hot_exit": true,
     "remember_full_screen": false,
     "always_prompt_for_file_reload": false,
