@@ -5,8 +5,14 @@
 // example, in Packages/Python/Python.sublime-settings for python files.
 {
 
-    /// Text Area
+    /// Themes
+    // "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+    "theme": "Cobalt2.sublime-theme",
+
     "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+    // "theme": "Spacegray Eighties.sublime-theme",
+
+    /// Text Area
     "font_face": "Anonymous Pro",
     "font_size": 10,
     "font_options": [],
@@ -79,7 +85,6 @@
     "drag_text": true,
 
     /// User Interface
-    "theme": "Spacegray Eighties.sublime-theme",
     "scroll_speed": 1.0,
     "tree_animation_enabled": true,
     "animation_enabled": true,
