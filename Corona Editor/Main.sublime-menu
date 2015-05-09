@@ -1,0 +1,925 @@
+// Generated file - do not edit - modify 'Main.sublime-menu.template' instead
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Corona Editor",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Corona Editor/README.md"},
+                                "caption": "README"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Corona Editor/RELEASE-NOTES.md"},
+                                "caption": "Release Notes"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Corona Editor/Corona Editor.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Corona Editor.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Corona Editor/Default.sublime-keymap"},
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Default.sublime-keymap"},
+                                "caption": "Key Bindings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+	{ "id":"corona", "caption": "Corona Editor", "children":
+		[
+		{ "caption": "-" },
+		{ "caption": "Corona SDK Docs", "command": "corona_docs" },
+		{ "caption": "Function Navigator...",   "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+		{ "caption": "-" },
+		{ "caption": "Snippets", "children": [
+    {
+        "caption": "Audio",
+        "children": [
+            {
+                "caption": "Dispose",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Dispose"
+                }
+            },
+            {
+                "caption": "Load Sound",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Load Sound"
+                }
+            },
+            {
+                "caption": "Load Stream",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Load Stream"
+                }
+            },
+            {
+                "caption": "Play",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Play"
+                }
+            },
+            {
+                "caption": "Set Volume",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Set Volume"
+                }
+            },
+            {
+                "caption": "Stop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Audio/Stop"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Corona",
+        "children": [
+            {
+                "caption": "build.settings Template",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Corona/default.build.settings.sublime-snippet"
+                }
+            },
+            {
+                "caption": "config.lua Template",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Corona/default.config.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Display",
+        "children": [
+            {
+                "caption": "Capture Screen",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Capture Screen"
+                }
+            },
+            {
+                "caption": "Circle",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Circle"
+                }
+            },
+            {
+                "caption": "Embossed Text",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Embossed Text"
+                }
+            },
+            {
+                "caption": "Group",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Group"
+                }
+            },
+            {
+                "caption": "Image",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Image"
+                }
+            },
+            {
+                "caption": "Image Rect",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Image Rect"
+                }
+            },
+            {
+                "caption": "Line",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Line"
+                }
+            },
+            {
+                "caption": "Rectangle",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Rectangle"
+                }
+            },
+            {
+                "caption": "Rounded Rectangle",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Rounded Rectangle"
+                }
+            },
+            {
+                "caption": "Save",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Save"
+                }
+            },
+            {
+                "caption": "Set Status Bar",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Set Status Bar"
+                }
+            },
+            {
+                "caption": "Sprite",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Sprite"
+                }
+            },
+            {
+                "caption": "Text",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Display/Text"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Event Listeners",
+        "children": [
+            {
+                "caption": "Add Event Listener",
+                "children": [
+                    {
+                        "caption": "accelerometer",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_accelerometer.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "axis",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_axis.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "collision",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_collision.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "enterFrame",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_enterframe.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "gyroscope",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_gyroscope.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "heading",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_heading.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "inputDeviceStatus",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_inputdevicestatus.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "key",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_key.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "mouse",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_mouse.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "notification",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_notification.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "orientation",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_orientation.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "resize",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_resize.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "sprite",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_sprite.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "system",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_system.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "tap",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_tap.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "touch",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Add Event Listener/al_touch.sublime-snippet"
+                        }
+                    }
+                ]
+            },
+            {
+                "caption": "Expand selection to addEventListener",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/addeventlistener.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Expand to addEventListener",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/addeventlistenerext.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Remove Event Listener",
+                "children": [
+                    {
+                        "caption": "accelerometer",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_accelerometer.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "axis",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_axis.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "collision",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_collision.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "enterFrame",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_enterframe.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "gyroscope",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_gyroscope.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "heading",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_heading.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "inputDeviceStatus",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_inputdevicestatus.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "key",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_key.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "mouse",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_mouse.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "notification",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_notification.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "orientation",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_orientation.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "resize",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_resize.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "sprite",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_sprite.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "system",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_system.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "tap",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_tap.sublime-snippet"
+                        }
+                    },
+                    {
+                        "caption": "touch",
+                        "command": "corona_snippet",
+                        "args": {
+                            "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/Remove Event Listener/rl_touch.sublime-snippet"
+                        }
+                    }
+                ]
+            },
+            {
+                "caption": "Expand selection to removeEventListener",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Event Listeners/removeeventlistener.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Lua",
+        "children": [
+            {
+                "caption": "for loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/forloop.sublime-snippet"
+                }
+            },
+            {
+                "caption": "function definition",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/function.sublime-snippet"
+                }
+            },
+            {
+                "caption": "if statement",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/if.sublime-snippet"
+                }
+            },
+            {
+                "caption": "if-else statement",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/ifelse.sublime-snippet"
+                }
+            },
+            {
+                "caption": "if-elseif statement",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/ifelseif.sublime-snippet"
+                }
+            },
+            {
+                "caption": "if-elseif-else statement",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/ifelseifelse.sublime-snippet"
+                }
+            },
+            {
+                "caption": "localize it",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/localizeit.sublime-snippet"
+                }
+            },
+            {
+                "caption": "for loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/loopfor.sublime-snippet"
+                }
+            },
+            {
+                "caption": "ipairs for loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/loopipairs.sublime-snippet"
+                }
+            },
+            {
+                "caption": "pairs for loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/looppairs.sublime-snippet"
+                }
+            },
+            {
+                "caption": "repeat-until loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/looprepeat.sublime-snippet"
+                }
+            },
+            {
+                "caption": "while loop",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Lua/whileloop.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Native",
+        "children": [
+            {
+                "caption": "Activity Indicator",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Activity Indicator"
+                }
+            },
+            {
+                "caption": "Show Alert",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Show Alert"
+                }
+            },
+            {
+                "caption": "Show Popup",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Show Popup"
+                }
+            },
+            {
+                "caption": "Show Web Popup",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Show Web Popup"
+                }
+            },
+            {
+                "caption": "Text Box",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Text Box"
+                }
+            },
+            {
+                "caption": "Text Field",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Text Field"
+                }
+            },
+            {
+                "caption": "Video",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Video"
+                }
+            },
+            {
+                "caption": "Web View",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Native/Web View"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Other",
+        "children": [
+            {
+                "caption": "Create a Class stub",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Other/class.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Create a Module stub",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Other/module.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Physics",
+        "children": [
+            {
+                "caption": "Add Body",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/Add Body"
+                }
+            },
+            {
+                "caption": "Distance Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/distance-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Friction Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/friction-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Piston Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/piston-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Pivot Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/pivot-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Pulley Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/pulley-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Touch Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/touch-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Weld Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/weld-joint.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Wheel Joint",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Physics/wheel-joint.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Timer",
+        "children": [
+            {
+                "caption": "Timer function",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Timer/timer.performwithdelay.anon.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Timer function 2",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Timer/timer.performwithdelay.ext.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Timer function 3",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Timer/timer.performwithdelay.id.sublime-snippet"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Transitions",
+        "children": [
+            {
+                "caption": "Blink",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Blink"
+                }
+            },
+            {
+                "caption": "Cancel",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Cancel"
+                }
+            },
+            {
+                "caption": "Fade In",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Fade In"
+                }
+            },
+            {
+                "caption": "Fade Out",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Fade Out"
+                }
+            },
+            {
+                "caption": "From",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/From"
+                }
+            },
+            {
+                "caption": "Move By",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Move By"
+                }
+            },
+            {
+                "caption": "Move To",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Move To"
+                }
+            },
+            {
+                "caption": "Scale By",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Scale By"
+                }
+            },
+            {
+                "caption": "Scale To",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/Scale To"
+                }
+            },
+            {
+                "caption": "To",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Transitions/To"
+                }
+            }
+        ]
+    },
+    {
+        "caption": "Widgets",
+        "children": [
+            {
+                "caption": "Button",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Button"
+                }
+            },
+            {
+                "caption": "Picker Wheel",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Picker Wheel"
+                }
+            },
+            {
+                "caption": "Progress View",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Progress View"
+                }
+            },
+            {
+                "caption": "Scroll View",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Scroll View"
+                }
+            },
+            {
+                "caption": "Segmented Control",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Segmented Control"
+                }
+            },
+            {
+                "caption": "Slider",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Slider"
+                }
+            },
+            {
+                "caption": "Spinner",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Spinner"
+                }
+            },
+            {
+                "caption": "Stepper",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Stepper"
+                }
+            },
+            {
+                "caption": "Switch",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Switch"
+                }
+            },
+            {
+                "caption": "Tab Bar",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Tab Bar"
+                }
+            },
+            {
+                "caption": "Table View",
+                "command": "corona_snippet",
+                "args": {
+                    "file": "/Users/oasis/Library/Application Support/Sublime Text 3/Packages/User/Corona Editor/Snippets/Widgets/Table View"
+                }
+            }
+        ]
+    }
+] },
+		{ "caption": "-" },
+		{ "caption": "Corona Debugger", "children": [
+			  { "caption": "Run", "command": "corona_debugger", "args": {"cmd": "run"} },
+			  { "caption": "Step Over", "command": "corona_debugger", "args": {"cmd": "over"} },
+			  { "caption": "Step Into", "command": "corona_debugger", "args": {"cmd": "step"} },
+			  { "caption": "Toggle Breakpoint", "command": "corona_debugger", "args": {"cmd": "setb"} },
+			  { "caption": "Inspect Variable", "command": "corona_debugger", "args": {"cmd": "dump"} },
+			  { "caption": "Stop", "command": "corona_debugger", "args": {"cmd": "exit"} }
+			]
+		},
+		{ "caption": "Run Project", "command": "run_project" },
+		{ "command": "toggle_build_panel" },
+		{ "caption": "-" },
+		{ "caption": "About Corona Editor...", "command": "about_corona_editor" }
+		]
+	}
+]

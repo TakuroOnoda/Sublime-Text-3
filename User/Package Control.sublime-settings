@@ -1,0 +1,40 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"AutoFileName",
+		"BoundKeys",
+		"BracketHighlighter",
+		"Case Conversion",
+		"ColorPicker",
+		"Corona Editor",
+		"DocBlockr",
+		"GitGutter",
+		"Increment Selection",
+		"Japanize",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"RailsCasts Colour Scheme",
+		"Random Everything",
+		"RecentActiveFiles",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-ruby",
+		"Theme - Flatland",
+		"Theme - Spacegray",
+		"TodoReview",
+		"Trimmer"
+	]
+}
