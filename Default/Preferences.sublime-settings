@@ -4,20 +4,10 @@
 // Settings may also be placed in file type specific options files, for
 // example, in Packages/Python/Python.sublime-settings for python files.
 {
+
+    /// Text Area
     "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
-
-    "corona_sdk_use_daily_docs": true,
-    "draw_white_space": "all",
-    "ensure_newline_at_eof_on_save": true,
     "font_face": "Anonymous Pro",
-    "highlight_line": true,
-    "itg_sidebar_tree_small": true,
-    "itg_xsmall_tabs": true,
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
-    "word_wrap": false,
-
-//  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
     "font_size": 10,
     "font_options": [],
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
@@ -26,17 +16,17 @@
     "margin": 4,
     "fold_buttons": true,
     "fade_fold_buttons": true,
-    "rulers": [],
+    "rulers": [80],
     "spell_check": false,
     "tab_size": 2,
-//    "translate_tabs_to_spaces": false,
+    "translate_tabs_to_spaces": true,
     "use_tab_stops": true,
     "detect_indentation": true,
     "auto_indent": true,
     "smart_indent": true,
     "indent_to_bracket": false,
     "trim_automatic_white_space": true,
-//    "word_wrap": "auto",
+    "word_wrap": false,
     "wrap_width": 0,
     "indent_subsequent_lines": true,
     "draw_centered": false,
@@ -45,7 +35,7 @@
     "spelling_selector": "markup.raw, source string.quoted - punctuation - meta.preprocessor.c.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)",
     "draw_minimap_border": false,
     "always_show_minimap_viewport": false,
- //   "highlight_line": false,
+    "highlight_line": true,
     "caret_style": "smooth",
     "caret_extra_top": 0,
     "caret_extra_bottom": 0,
@@ -61,11 +51,11 @@
     "line_padding_bottom": 0,
     "scroll_past_end": true,
     "move_to_limit_on_up_down": false,
- //   "draw_white_space": "selection",
+    "draw_white_space": "all",
     "draw_indent_guides": true,
     "indent_guide_options": ["draw_normal"],
-//    "trim_trailing_white_space_on_save": false,
- //   "ensure_newline_at_eof_on_save": false,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
     "save_on_focus_lost": false,
     "atomic_save": false,
     "fallback_encoding": "Western (Windows 1252)",
@@ -120,5 +110,11 @@
     "index_workers": 0,
     "index_exclude_patterns": ["*.log"],
     "enable_telemetry": "auto",
-    "ignored_packages": ["Vintage"]
+    "ignored_packages": ["Vintage"],
+
+    /// packages
+    "corona_sdk_use_daily_docs": true,
+    "itg_sidebar_tree_small": true,
+    "itg_xsmall_tabs": true
+
 }
