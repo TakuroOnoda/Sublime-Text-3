@@ -1,4 +1,14 @@
 # Sublime-Text-3
+
+setting
+``` sh
+cd /Users/ user name /Library/Application\ Support/Sublime\ Text\ 3/Packages/
+git init
+git remote add origin https://github.com/TakuroOnoda/Sublime-Text-3_Packages.git
+git pull origin master
+```
+
+initial commited
 ``` sh
 cd /Users/ user name /Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git init
