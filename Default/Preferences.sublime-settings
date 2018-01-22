@@ -7,14 +7,16 @@
 
     /// Themes
     // "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
-    "theme": "Cobalt2.sublime-theme",
-
-    "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
     // "theme": "Spacegray Eighties.sublime-theme",
 
+    // "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+    // "theme": "Cobalt2.sublime-theme",
+
     /// Text Area
-    "font_face": "Anonymous Pro",
-    "font_size": 10,
+    // "font_face": "Anonymous Pro",
+    // "font_face": "Myrica M",
+    // "font_size": 10,
+
     "font_options": [],
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
     "line_numbers": true,
@@ -110,7 +112,7 @@
     "preview_on_click": true,
     "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS"],
     "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
-    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"],
+    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "*.cache", "*.woff"],
     "index_files": true,
     "index_workers": 0,
     "index_exclude_patterns": ["*.log"],

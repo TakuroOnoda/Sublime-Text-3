@@ -1,0 +1,4 @@
+{
+  "search_threshold": 50000, // サーチ範囲を5万文字（10倍）に広げる
+  "ignore_threshold": false // サーチ範囲を限定しない
+}

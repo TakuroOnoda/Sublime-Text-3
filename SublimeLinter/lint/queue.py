@@ -19,7 +19,6 @@ from . import persist, util
 
 
 class Daemon:
-
     """
     This class provides a threaded queue that dispatches lints.
 
@@ -85,7 +84,7 @@ class Daemon:
                         last_runs.clear()
                 else:
                     persist.printf('unknown message sent to daemon:', item)
-            except:
+            except Exception:
                 persist.printf('error in SublimeLinter daemon:')
                 persist.printf('-' * 20)
                 persist.printf(traceback.format_exc())

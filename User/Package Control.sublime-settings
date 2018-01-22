@@ -1,35 +1,56 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Abacus",
 		"AdvancedNewFile",
+		"Alignment",
 		"All Autocomplete",
-		"ApacheConf.tmLanguage",
+		"ApacheConf",
 		"AutoFileName",
+		"Babel",
+		"Better CoffeeScript",
 		"BoundKeys",
+		"Boxy Theme",
 		"BracketHighlighter",
 		"Case Conversion",
 		"ColorPicker",
 		"Corona Editor",
 		"DocBlockr",
+		"Elixir",
 		"Git",
 		"GitGutter",
 		"Increment Selection",
+		"InputSequence",
 		"Japanize",
+		"jQuery",
+		"JSX",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Markdown Slideshow",
+		"OmniMarkupPreviewer",
 		"Origami",
 		"Package Control",
 		"Pretty JSON",
 		"RailsCasts Colour Scheme",
 		"Random Everything",
 		"RecentActiveFiles",
+		"Ruby Slim",
 		"SCSS",
+		"SFTP",
+		"Show Character Code",
 		"SideBarEnhancements",
+		"Skins",
+		"SqlBeautifier",
 		"Sublime Files",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
@@ -39,5 +60,9 @@
 		"Theme - Spacegray",
 		"TodoReview",
 		"Trimmer"
+	],
+	"repositories":
+	[
+		"https://github.com/kazu1107/InputSequence.git"
 	]
 }

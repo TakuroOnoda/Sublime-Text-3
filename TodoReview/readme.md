@@ -1,3 +1,5 @@
+**This project is no longer under active development. This project is functional, however, no new features will be implemented, and patches may occur time-to-time.**
+
 # TodoReview
 A SublimeText plugin for reviewing todo (and other) comments within your code.
 
@@ -67,7 +69,7 @@ Global configuration can be set within the standard package settings menu (Prefe
     "settings": {
         "todoreview": {
             "exclude_folders": [
-                "*.git"
+                "*.git*"
             ]
         }
     }
@@ -194,6 +196,7 @@ The TodoReview search engine takes a number of arguments to better find what you
 - `paths` - An array of paths to search
 - `open_files` - Boolean to include open files
 - `open_files_only` - Boolean to restrict search to open files
+- `current_file` - Boolean to restrict search to current, open file
 - `settings` - A settings object; this will override ALL project settings.
 
 

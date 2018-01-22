@@ -1,1 +1,1 @@
-{"version": "3.0.6", "sublime_text": "*", "platforms": ["*"], "dependencies": [], "url": "https://github.com/jonathandelgado/SublimeTodoReview", "description": "A SublimeText plugin for reviewing todo (and other) comments within your code."}
+{"description": "A SublimeText plugin for reviewing todo (and other) comments within your code.", "platforms": ["*"], "sublime_text": "*", "dependencies": [], "version": "3.0.10", "url": "https://github.com/jonathandelgado/SublimeTodoReview"}
