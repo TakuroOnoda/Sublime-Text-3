@@ -11,7 +11,7 @@ clone settings
 ``` sh
 cd /Users/ user name /Library/Application\ Support/Sublime\ Text\ 3/Packages/
 git clone git@github.com:TakuroOnoda/Sublime-Text-3_Packages.git
-git remote add origin https://github.com/TakuroOnoda/Sublime-Text-3_Packages.git
+mv Packages bk_Packages
 mv Sublime-Text-3_Packages Packages
 ```
 
